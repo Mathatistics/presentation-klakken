@@ -20,7 +20,7 @@
 \fi
 \usetheme{Madrid}
 \usecolortheme{seahorse}
-\usefonttheme{professionalfonts}
+\usefonttheme{serif}
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
@@ -75,6 +75,7 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{0}
 \usepackage{textpos}
+\usepackage{mathpazo}
 
 \definecolor{first}{HTML}{009D7F}
 \definecolor{first-text}{HTML}{F2F2F2}
@@ -88,8 +89,8 @@
 \setbeamercolor{item projected}{fg=white,bg=third}
 
 \addtobeamertemplate{frametitle}{}{%
-\begin{textblock*}{100mm}(0.92\textwidth,-1cm)
-\includegraphics[height=1cm]{LogoNMBUwhite}
+\begin{textblock*}{100mm}(0.92\textwidth,-0.85cm)
+\includegraphics[height=0.75cm]{LogoNMBUwhite}
 \end{textblock*}}
 
 \titlegraphic{\includegraphics[width=2cm]{LogoNMBU}}
@@ -144,7 +145,7 @@ Inge Halland, UiO}
 
 \begin{frame}{Background}
 
-\begin{itemize}
+\begin{itemize}[<+->]
 \tightlist
 \item
   PLS \textbf{Population Model} \citep{helland1990partial} which further
@@ -172,7 +173,7 @@ Inge Halland, UiO}
 
 \begin{frame}[fragile]{Background}
 
-\begin{itemize}
+\begin{itemize}[<+->]
 \tightlist
 \item
   This study attempts to make an \emph{emperial comparison} among PCR,
@@ -208,7 +209,7 @@ where,
 variable\tabularnewline
 \(\boldsymbol{\beta}\) & : & Regression Coefficients\tabularnewline
 \(\boldsymbol{\epsilon}\) & : & Error
-\(\epsilon \sim \text{NID}(0, \sigma^1)\)\tabularnewline
+\(\epsilon \sim \text{NID}(0, \sigma^2)\)\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -274,6 +275,8 @@ PLS
 \strut\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
+
+\pause
 
 \begin{longtable}[]{@{}ll@{}}
 \toprule
@@ -369,37 +372,37 @@ Prediction (\emph{MSEP})}. Mean prediction error is calculated as,
 
 \begin{frame}{Analysis Results}
 
-\includegraphics{Main_files/figure-beamer/unnamed-chunk-6-1.pdf}
+\begin{center}\includegraphics{Main_files/figure-beamer/unnamed-chunk-6-1} \end{center}
 
 \end{frame}
 
 \begin{frame}{Analysis Results}
 
-\includegraphics{Main_files/figure-beamer/unnamed-chunk-7-1.pdf}
+\begin{center}\includegraphics{Main_files/figure-beamer/unnamed-chunk-7-1} \end{center}
 
 \end{frame}
 
 \begin{frame}{Analysis Results}
 
-\includegraphics{Main_files/figure-beamer/unnamed-chunk-8-1.pdf}
+\begin{center}\includegraphics{Main_files/figure-beamer/unnamed-chunk-8-1} \end{center}
 
 \end{frame}
 
 \begin{frame}{Analysis Results}
 
-\includegraphics{Main_files/figure-beamer/unnamed-chunk-9-1.pdf}
+\begin{center}\includegraphics{Main_files/figure-beamer/unnamed-chunk-9-1} \end{center}
 
 \end{frame}
 
 \begin{frame}{Analysis Results}
 
-\includegraphics{Main_files/figure-beamer/unnamed-chunk-10-1.pdf}
+\begin{center}\includegraphics{Main_files/figure-beamer/unnamed-chunk-10-1} \end{center}
 
 \end{frame}
 
 \begin{frame}{Conclusion}
 
-\begin{itemize}
+\begin{itemize}[<+->]
 \tightlist
 \item
   New methods -- Envelope and Bayes, as they claim, are performing
@@ -420,6 +423,12 @@ Prediction (\emph{MSEP})}. Mean prediction error is calculated as,
 \item
   All the models are performing better than the least square solution
 \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{center}\includegraphics{ThankYou} \end{center}
 
 \end{frame}
 

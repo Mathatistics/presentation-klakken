@@ -5,7 +5,7 @@ date: "4 September 2016"
 output:
   beamer_presentation:
     colortheme: seahorse
-    fonttheme: professionalfonts
+    fonttheme: serif
     highlight: tango
     includes:
       in_header: header.tex
@@ -36,6 +36,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 library(data.table)
 library(ggplot2)
+library(simrel)
 ```
 
 
@@ -48,18 +49,18 @@ library(ggplot2)
 
 ## Background
 
-- PLS **Population Model** [@helland1990partial] which further discussed by [@naes1993relevant; @helland2001some]
-- PLS, _heavely developed_ [@wold1985partial; @naes1993relevant; @de1993simpls], without addressing the population model [@cook2013envelopes]
-- Mostly popular among chemometrician
-- Was not very popular among statistician which has changed and is nowadays considered as an essential tool for multivariate analysis
-- Accounting the population model, new estimation methods have been purposed such as **Envelope** [@cook2010envelope; @cook2016algorithms] and **BayesPLS** [@helland2012near] which are _closely related_ to PLS
-- @cook2013envelopes said that PLS is fundamentally an envelope in the population model
+> - PLS **Population Model** [@helland1990partial] which further discussed by [@naes1993relevant; @helland2001some]
+> - PLS, _heavely developed_ [@wold1985partial; @naes1993relevant; @de1993simpls], without addressing the population model [@cook2013envelopes]
+> - Mostly popular among chemometrician
+> - Was not very popular among statistician which has changed and is nowadays considered as an essential tool for multivariate analysis
+> - Accounting the population model, new estimation methods have been purposed such as **Envelope** [@cook2010envelope; @cook2016algorithms] and **BayesPLS** [@helland2012near] which are _closely related_ to PLS
+> - @cook2013envelopes said that PLS is fundamentally an envelope in the population model
 
 ## Background
 
-- This study attempts to make an _emperial comparison_ among PCR, PLS, Envelope and BayesPLS model on the basis of their **prediction ability**
-- Using `simrel` [@saebo2015simrel] R-package, data with diverse nature are simulated.
-- `simrel` allows to have control over latent structure (relevant component) of the data, fine analysis of strength and weakness of a models is possible
+> - This study attempts to make an _emperial comparison_ among PCR, PLS, Envelope and BayesPLS model on the basis of their **prediction ability**
+> - Using `simrel` [@saebo2015simrel] R-package, data with diverse nature are simulated.
+> - `simrel` allows to have control over latent structure (relevant component) of the data, fine analysis of strength and weakness of a models is possible
 
 ## Statistical Model
 
@@ -77,7 +78,7 @@ where,
 | $\boldsymbol{y}$        | : | Response                                      |
 | $\boldsymbol{X}$        | : | Matrix of $p$ predictor variable              |
 | $\boldsymbol{\beta}$    | : | Regression Coefficients                       |
-| $\boldsymbol{\epsilon}$ | : | Error $\epsilon \sim \text{NID}(0, \sigma^1)$ |
+| $\boldsymbol{\epsilon}$ | : | Error $\epsilon \sim \text{NID}(0, \sigma^2)$ |
 
 Here, both $\boldsymbol{y}$ and $\boldsymbol{X}$ are considered to be centered.
 
@@ -109,6 +110,9 @@ So, True regression estimates are the space spanned by the eigenvectors of popul
 |-------------------------------------------------------|-------------------------------------------|
 | * Regression of response on latent space of predictor | * Estimation through Iterative algorithm  |
 | * No strict assumption                                | * No strict assumption                    |
+
+
+. . .
 
 
 
@@ -216,43 +220,51 @@ getPlot <- function(dgn, annot = TRUE) {
 }
 ```
 
-```{r}
+```{r, fig.width=8, fig.align='center'}
 getPlot(1)
 ```
 
 ## Analysis Results
 
-```{r}
+```{r, fig.width=8, fig.align='center'}
 getPlot(2)
 ```
 
 ## Analysis Results
 
-```{r}
+```{r, fig.width=8, fig.align='center'}
 getPlot(3)
 ```
 
 ## Analysis Results
 
-```{r}
+```{r, fig.width=8, fig.align='center'}
 getPlot(4)
 ```
 
 ## Analysis Results
 
-```{r}
+```{r, fig.align='center'}
 getPlot(1:4, annot = FALSE)
 ```
 
 
 ## Conclusion
 
-- New methods -- Envelope and Bayes, as they claim, are performing better than algorithmic approach of PLS
-- However, the performance of MLE approach of Envelope is not satisfactory when number of variable is large
-- In the case of Bayes PLS, the prediction error does not raises noticably (test prediction) after capturing enough information with few components
-- This suggests that it is able to find the direction of maximum variation after successive rotations of predictor subspace
-- The computation regarding BayesPLS is intensive which will not be fisible in case of wide dataset (very common in genomic data)
-- All the models are performing better than the least square solution
+> - New methods -- Envelope and Bayes, as they claim, are performing better than algorithmic approach of PLS
+> - However, the performance of MLE approach of Envelope is not satisfactory when number of variable is large
+> - In the case of Bayes PLS, the prediction error does not raises noticably (test prediction) after capturing enough information with few components
+> - This suggests that it is able to find the direction of maximum variation after successive rotations of predictor subspace
+> - The computation regarding BayesPLS is intensive which will not be fisible in case of wide dataset (very common in genomic data)
+> - All the models are performing better than the least square solution
+
+
+----
+
+```{r, fig.align='center', fig.width=12}
+knitr::include_graphics('ThankYou.jpg')
+```
+
 
 # References
-<!-- \scriptsize -->
+<!-- \small -->
