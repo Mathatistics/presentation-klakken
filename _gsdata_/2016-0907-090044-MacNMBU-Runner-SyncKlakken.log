@@ -1,0 +1,118 @@
+2016-09-07 09:00:45: Change detected [0]: t=Modified path=/Main.Rmd
+2016-09-07 09:00:45: Change detected [0]: t=Created path=/.Rproj.user/shared/notebooks/.rstudio-lock-41c29-MacNMBU.local-92608-0x7fff7970d000
+2016-09-07 09:00:45: Change detected [0]: t=Modified path=/.Rproj.user/CA561311/sdb/s-B9CCC527/2EFE8958
+2016-09-07 09:00:45: Change detected [0]: t=Modified path=/.Rproj.user/CA561311/sdb/prop/5087E748
+2016-09-07 09:00:45: Change detected [0]: t=Created path=/.git/index.lock
+2016-09-07 09:00:45: Change detected [0]: t=Created path=/Main.knit.md
+2016-09-07 09:00:45: Change detected [0]: t=Created path=/Main.utf8.md
+2016-09-07 09:00:45: Change detected [0]: t=Created path=/Main_files
+2016-09-07 09:00:45: Connected to: /Volumes/SSDRimalaya/rspace/Presentation-Klakken: fs=EXFAT dev=/dev/disk2s1 mount=/Volumes/SSDRimalaya: hfs=0 fat=0 netshare=0
+2016-09-07 09:00:46: Change detected [0]: t=Created path=/.git/index.lock
+2016-09-07 09:00:47: Connected to: sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.8: SFTP ver 3
+2016-09-07 09:00:47: Incremental Analyze for On File Change
+2016-09-07 09:00:47: -- Analysis Started by On File Change Incremental, Under Runner
+2016-09-07 09:00:47: SyncKlakken: ANALYSIS started by On File Change Incremental, Under Runner on 'MacNMBU' (GoodSync 5.5.6.6)
+2016-09-07 09:00:47: /Volumes/SSDRimalaya/rspace/Presentation-Klakken [TmpDest] <-> sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken [TmpDest], SavePrevVers, CleanupPrevVers=30d, WaitForLocksMinutes=20, LinksCopy, ReconnectSecs=120, ChangeLimit=50, AutoClear
+2016-09-07 09:00:47: Exclude Hidden, Exclude System, Exclude name *._gstmp|/System Volume Information|Thumbs.db|.DS_Store 
+2016-09-07 09:00:47: Locking folder /Volumes/SSDRimalaya/rspace/Presentation-Klakken for write
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.git/index.lock
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/shared/notebooks/.rstudio-lock-41c29-MacNMBU.local-92608-0x7fff7970d000
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/CA561311/sdb/s-B9CCC527/2EFE8958
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/CA561311/sdb/prop/5087E748
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.Rmd
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/shared/notebooks/.rstudio-lock-41c29-MacNMBU.local-92608-0x7fff7970d000
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/CA561311/sdb/s-B9CCC527/2EFE8958
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/CA561311/sdb/prop/5087E748
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.git/index.lock
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.Rmd
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/shared/notebooks/.rstudio-lock-41c29-MacNMBU.local-92608-0x7fff7970d000
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/CA561311/sdb/s-B9CCC527/2EFE8958
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/CA561311/sdb/prop/5087E748
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.git/index.lock
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.knit.md
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.utf8.md
+2016-09-07 09:00:47: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main_files
+2016-09-07 09:00:47: Locking folder sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken for write
+2016-09-07 09:00:47: Change detected [0]: t=Modified path=/Main.html
+2016-09-07 09:00:47: Change detected [0]: t=Created path=/ioslides_presentation.lua
+2016-09-07 09:00:47: Change detected [0]: t=Created path=/.git/index.lock
+2016-09-07 09:00:47: On disk file:// space required for sync is 0.0, you have 135.5 GB
+2016-09-07 09:00:47: On disk sftp://cloudrimalaya.ddns.net space required for sync is 10.0 KB, free space is unknown
+2016-09-07 09:00:47: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2016-09-07 09:00:47: Changes: 7, Conflicts: 3, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 133
+2016-09-07 09:00:47: Left to Right: Copy File: 4 
+2016-09-07 09:00:47: -- Analysis Complete. Time 00:00:03, Speed: 12 files/s
+2016-09-07 09:00:47: == Sync Started by On File Change Incremental, Under Runner
+2016-09-07 09:00:47: SyncKlakken: SYNC started by On File Change Incremental, Under Runner on 'MacNMBU'
+2016-09-07 09:00:47: /Volumes/SSDRimalaya/rspace/Presentation-Klakken [TmpDest] <-> sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken [TmpDest], SavePrevVers, CleanupPrevVers=30d, WaitForLocksMinutes=20, LinksCopy, ReconnectSecs=120, ChangeLimit=50, AutoClear
+2016-09-07 09:00:47: Fraction of files changed (excluding renames) is low enough to perform Auto Sync: 18% (7 / 38) < 50%
+2016-09-07 09:00:47: Create Folder 'sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/Main_files'
+2016-09-07 09:00:48: Load Recycled DB: sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/_gsdata_/_recycled_db._gs
+2016-09-07 09:00:48: Copy Over '/Volumes/SSDRimalaya/rspace/Presentation-Klakken/.Rproj.user/CA561311/sdb/s-B9CCC527/2EFE8958' -> 'sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/.Rproj.user/CA561311/sdb/s-B9CCC527/2EFE8958'
+2016-09-07 09:00:48: Copy New '/Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.knit.md' -> 'sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/Main.knit.md'
+- ERROR: Error copying file: Cannot open file '/Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.knit.md' for read: No such file or directory (error 2)
+2016-09-07 09:00:48: /Main.pdf: unresolved conflict results in No Copy
+2016-09-07 09:00:48: Change detected [0]: t=Modified path=/Main.html
+2016-09-07 09:00:48: Change detected [0]: t=Created path=/ioslides_presentation.lua
+2016-09-07 09:00:48: Change detected [0]: t=Created path=/Main.knit.md
+2016-09-07 09:00:48: Change detected [0]: t=Created path=/Main.utf8.md
+2016-09-07 09:00:48: Change detected [0]: t=Created path=/Main_files
+2016-09-07 09:00:48: Copy Over '/Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.Rmd' -> 'sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/Main.Rmd'
+2016-09-07 09:00:48: /Main.tex: unresolved conflict results in No Copy
+2016-09-07 09:00:48: /Main.utf8.md: unresolved conflict results in No Copy
+2016-09-07 09:00:48: Save State File /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_/_file_state_v4._gs
+2016-09-07 09:00:48: Save State File sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/_gsdata_/_file_state_v4._gs
+2016-09-07 09:00:48: Sync finished with 1 errors. Click Errors button to see sync errors
+2016-09-07 09:00:48: Cleanup recycled files in /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_/_saved_
+2016-09-07 09:00:48: Load Recycled DB: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_/_recycled_db._gs
+2016-09-07 09:00:48: Cleanup old logs in /Users/rajurim/.goodsync/_mirrors_/Volumes-SSDRimalaya-rspace-Presentation-Klakken
+2016-09-07 09:00:48: Cleanup old logs in /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_
+2016-09-07 09:00:49: Save Recycled DB: sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/_gsdata_/_recycled_db._gs
+2016-09-07 09:00:49: == Sync Complete. Time: 00:00:02, Speed: 11.1 KB/s, OK: 3, Errors: 1, Conflicts: 3
+2016-09-07 09:00:49: Change detected [0]: t=Created path=/.git/index.lock
+2016-09-07 09:00:50: --- Do one more Analyze to get latest changes of this Sync ---
+2016-09-07 09:00:50: -- Analysis Started by On File Change PostSync Re-Analyze, Under Runner
+2016-09-07 09:00:50: SyncKlakken: ANALYSIS started by On File Change PostSync Re-Analyze, Under Runner on 'MacNMBU' (GoodSync 5.5.6.6)
+2016-09-07 09:00:50: /Volumes/SSDRimalaya/rspace/Presentation-Klakken [TmpDest] <-> sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken [TmpDest], SavePrevVers, CleanupPrevVers=30d, WaitForLocksMinutes=20, LinksCopy, ReconnectSecs=120, ChangeLimit=50, AutoClear
+2016-09-07 09:00:50: Exclude Hidden, Exclude System, Exclude name *._gstmp|/System Volume Information|Thumbs.db|.DS_Store 
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.git/index.lock
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.html
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/ioslides_presentation.lua
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.git/index.lock
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.html
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/ioslides_presentation.lua
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.knit.md
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.utf8.md
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main_files
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/.git/index.lock
+2016-09-07 09:00:50: Change in: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.knit.md
+2016-09-07 09:00:50: Change in: sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/Main.knit.md
+2016-09-07 09:00:50: On disk file:// space required for sync is 0.0, you have 135.5 GB
+2016-09-07 09:00:50: On disk sftp://cloudrimalaya.ddns.net space required for sync is 432.0 KB, free space is unknown
+2016-09-07 09:00:50: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2016-09-07 09:00:50: Changes: 5, Conflicts: 3, CopyTime: 0, CopyState: 0/1, Errors: 0, All: 133
+2016-09-07 09:00:50: Left to Right: Copy File: 1 Delete File: 1 
+2016-09-07 09:00:50: -- Analysis Complete. Time 00:00:03, Speed: 12 files/s
+2016-09-07 09:00:50: == Sync Started by On File Change PostSync Re-Analyze, Under Runner
+2016-09-07 09:00:50: SyncKlakken: SYNC started by On File Change PostSync Re-Analyze, Under Runner on 'MacNMBU'
+2016-09-07 09:00:50: /Volumes/SSDRimalaya/rspace/Presentation-Klakken [TmpDest] <-> sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken [TmpDest], SavePrevVers, CleanupPrevVers=30d, WaitForLocksMinutes=20, LinksCopy, ReconnectSecs=120, ChangeLimit=50, AutoClear
+2016-09-07 09:00:50: Fraction of files changed (excluding renames) is low enough to perform Auto Sync: 13% (5 / 37) < 50%
+2016-09-07 09:00:50: Sync State Merge: /Main.knit.md
+2016-09-07 09:00:50: Delete Folder 'sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/Main_files'
+2016-09-07 09:00:52: Load Recycled DB: sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/_gsdata_/_recycled_db._gs
+2016-09-07 09:00:52: Copy Over '/Volumes/SSDRimalaya/rspace/Presentation-Klakken/Main.html' -> 'sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/Main.html'
+2016-09-07 09:00:52: /Main.pdf: unresolved conflict results in No Copy
+2016-09-07 09:00:52: /Main.tex: unresolved conflict results in No Copy
+2016-09-07 09:00:52: /Main.utf8.md: unresolved conflict results in No Copy
+2016-09-07 09:00:52: Save State File /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_/_file_state_v4._gs
+2016-09-07 09:00:52: Save State File sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/_gsdata_/_file_state_v4._gs
+2016-09-07 09:00:52: Sync finished with 3 unresolved conflicts. Click Conflicts button to see unresolved conflicts
+2016-09-07 09:00:52: Cleanup recycled files in /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_/_saved_
+2016-09-07 09:00:52: Load Recycled DB: /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_/_recycled_db._gs
+2016-09-07 09:00:52: Cleanup old logs in /Users/rajurim/.goodsync/_mirrors_/Volumes-SSDRimalaya-rspace-Presentation-Klakken
+2016-09-07 09:00:52: Cleanup old logs in /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_
+2016-09-07 09:00:52: Save Recycled DB: sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/_gsdata_/_recycled_db._gs
+2016-09-07 09:00:52: == Sync Complete. Time: 00:00:02, Speed: 218.5 KB/s, OK: 3, Errors: 0, Conflicts: 3
+2016-09-07 09:00:52: Deleted lock file /Volumes/SSDRimalaya/rspace/Presentation-Klakken/_gsdata_/lock.gsl
+2016-09-07 09:00:52: Deleted lock file sftp://cloudrimalaya.ddns.net/shares/anonymous/Presentation-Klakken/_gsdata_/lock.gsl
+2016-09-07 09:00:52: 

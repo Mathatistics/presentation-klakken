@@ -1,0 +1,31 @@
+\frametitle{Data Simulation}
+
+Models are analysed under diverse nature of data. Data are simulated
+using \texttt{simrel} package (R). In this study, I have included
+following four design;
+
+\begin{longtable}[]{@{}rrllr@{}}
+\toprule
+n & p & R2 & relpos & gamma\tabularnewline
+\midrule
+\endhead
+50 & 15 & 0.5 & 1, 2 & 0.5\tabularnewline
+50 & 40 & 0.5 & 1, 2 & 0.5\tabularnewline
+50 & 15 & 0.9 & 2, 3 & 0.9\tabularnewline
+50 & 40 & 0.9 & 2, 3 & 0.9\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\texttt{n} & : & Number of observations\tabularnewline
+\texttt{p} & : & Number of variables\tabularnewline
+\texttt{R2} & : & Variation explained by the model\tabularnewline
+\texttt{relpos} & : & Position of relevant components\tabularnewline
+\texttt{gamma} & : & Reduction factor of eigenvalue of
+\(X\)\tabularnewline
+\bottomrule
+\end{longtable}
+
+For each of these design, 5000 test samples are simulated.
+
